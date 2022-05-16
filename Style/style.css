@@ -1,0 +1,185 @@
+body{
+    background: #ced4da;
+    
+}
+
+/*encabezado*/
+
+.Encabezado{
+    margin: 40px;
+}
+
+h1 img{
+    position: fixed;
+}
+
+/*principal*/
+
+main{
+    width: 940px;
+}
+
+.ingresar-texto{
+    margin: 0 auto;
+}
+
+.encriptar {
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    background: #ced4da;
+    border: none;
+    outline: none;
+    /*texto*/
+    font-size: 32px;
+    color: #0A3871;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.desencriptar{
+    position: absolute;
+    box-sizing: border-box;
+    width: 30%;
+    height: 644px;
+    top: 40px;
+    left: 900px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 10px  10px  10px 2px #b3b4b6 ;
+    border: none;
+    border-radius: 32px; 
+    outline: none;
+    /*imagen de fondo*/
+    background-image: url(/img/Muñeco.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*placeholder*/
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: #0A3871;
+    vertical-align: bottom;
+    padding-top: 450px;
+    text-align: center;
+    font-style: normal;
+}
+
+/*parrafo*/
+
+.parrafo {
+    position: absolute;
+    display: inline-flex;
+    opacity: 70%;
+    top: 640px;
+    left: 264px;
+    color: #495057;
+    font-family: 'Inter';
+}
+
+.parrafo::before{
+    content:"❕";
+}
+
+/*botones*/
+
+.botones{
+    position: absolute;
+    top: 675px;
+    left: 120px;
+}
+
+.bton{
+    box-sizing: border-box;
+    width: 328px;
+    height: 67px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background: #0A3871;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1s;
+    
+}
+
+.bton:hover{
+    font-size: 18px;
+    background:#356ea9 ;
+}
+
+
+.bton-copiar{
+    box-sizing: border-box;
+    width: 328px;
+    height: 67px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 25px;
+    background: #0A3871;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.bton-copiar:hover{
+    font-size: 18px;
+    background:#356ea9 ;
+}
+
+/*pie de pagina*/
+
+footer{
+    width: 940px;
+}
+
+.pie-de-pagina{
+    position: absolute ;
+    background: #0A3871;
+    width: 100%;
+    top: 800px;
+}
+
+
+.pie-de-pagina1{
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.social li{
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    padding-left: 30px;
+    color: #fff;
+    transition: 1s;
+}
+
+.social i:hover{
+    font-size: 220%;
+}
+
+.pie-de-pagina2{
+    text-align: center;
+}
+
+.pie-de-pagina2 p{
+    margin-bottom: 5px;
+    padding: 10px;
+    color: #fff;
+    font-family:'Inter';
+}
+
+
+
+

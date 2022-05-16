@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--iconos-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--estilos-->
+    <link rel="stylesheet" href="Style/reset.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <!--titulo de la pagina-->
+    <title>Encriptador-Alura</title>
+</head>
+<body>
+    <header>
+        <div class="Encabezado">
+            <h1><img src="img/Vector.png" alt="Esta es una imagen del logo de alura"></h1>
+        </div>
+    </header>
+    <main>
+        <section class="ingresar-texto">
+            <form id="formulario">
+
+                <label for="ingrese-el-texto"></label>
+                <input type="text" required id="ingrese-el-texto" class="encriptar" placeholder="Ingrese el texto aqui">
+                <input type="text" id="texto-encriptado" class="desencriptar" placeholder="Ningún mensaje fue encontrado">
+                
+                <div class="botones">
+                    <button class="bton" id="encriptar">Encriptar</button>
+                    <button class="bton" id="desencriptar">Desencriptar</button>
+                    <button class="bton-copiar" id="copiar">Copiar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="parrafo">
+            <p>Solo letras minusculas y sin acentos</p>
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="pie-de-pagina">
+            <div class="pie-de-pagina1">
+                <ul class="social">
+                    <li><a href="mailto:a.medina06@hotmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="http://facebook.com/andresfelipe.medinasanchez" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://instagram.com/af.medinas/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/Medinaaf" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="pie-de-pagina2">
+                <p>&copy;Andres Medina</p>   
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/encriptar.js"></script>
+</body>
+</html>
